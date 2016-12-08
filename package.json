@@ -1,0 +1,31 @@
+{
+  "name": "leafy-react",
+  "version": "1.0.0",
+  "description": "react leaflet map app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gerald Ruiz",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.9",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "leaflet": "^1.0.0-rc.3",
+    "leaflet-draw": "^0.4.7",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-leaflet": "^1.0.0-rc.3",
+    "react-leaflet-control": "^1.2.0",
+    "react-leaflet-draw": "^0.10.1",
+    "webpack": "^1.14.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  }
+}
